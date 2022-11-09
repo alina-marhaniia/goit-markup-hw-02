@@ -1,0 +1,30 @@
+/* Цвет основного текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Акцентный цвет #2196F3 */
+/* Белый #FFFFFF */
+/* фон - #F5F5F5 */
+/* Вторичный фон #F5F4FA */
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: #2196f3;
+}
+/* Site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
