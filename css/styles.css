@@ -94,6 +94,11 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
 /* ---------- Герой ----------*/
 .hero {
   background: var(--dark-background-color);
@@ -125,7 +130,6 @@ body {
 /* -----------Особливості----------- */
 
 .about-subtitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -134,7 +138,6 @@ body {
 }
 
 .about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -142,7 +145,6 @@ body {
 }
 /* -----------Проекти-----------*/
 .projects-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -154,7 +156,6 @@ body {
   background-color: #f5f4fa;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -170,7 +171,6 @@ body {
   color: var(--secondary-text-color);
 }
 .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -185,21 +185,18 @@ body {
 .footer-logo {
   color: var(--main-color);
 }
-.map {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  color: var(--main-color);
-}
-
+.map,
 .footer-contacts {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
 
+.map {
+  color: var(--main-color);
+}
+.footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-contacts:hover,
@@ -212,7 +209,6 @@ body {
   background-color: var(--main-background-color);
 }
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -220,12 +216,12 @@ body {
   color: var(--secondary-text-color);
 }
 .portfolio-filter {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 
   color: var(--main-text-color);
 }
+
 .portfolio-button {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
